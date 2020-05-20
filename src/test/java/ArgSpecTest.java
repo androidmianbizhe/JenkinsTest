@@ -10,7 +10,7 @@ public class ArgSpecTest {
     @Test
     public void should_create_argSpec_given_text(){
         ArgSpec argSpec = new ArgSpec("l:boolean");
-        TestCase.assertEquals(argSpec.getTag(),"1");
+        TestCase.assertEquals(argSpec.getTag(),"l");
         TestCase.assertEquals(argSpec.getType(),"boolean");
     }
 }
